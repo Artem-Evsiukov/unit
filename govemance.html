@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Verst</title>
+  <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
+  <link media="all" rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header ">
+            <div class=" header__wrap">
+                <div class="logo display-none-head">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <div class="logo-btn">
+                        <button type="button" class="btn primary">Launch App</button>
+                    </div>
+                </div>
+                <nav class="nav js-burger" id="nav">
+                    <div class="logo display-off">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item ">
+                            <a href="https://www.unit.network/login" class="nav__link">
+                                <div class="nav__icon">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9" cy="5" r="4" stroke="#ABABB4" stroke-width="2"/>
+                                    <path d="M1 16.619C1 12.4112 4.41116 9 8.61905 9H9.38095C13.5888 9 17 12.4112 17 16.619V16.619C17 16.8294 16.8294 17 16.619 17H1.38095C1.17056 17 1 16.8294 1 16.619V16.619Z" stroke="#ABABB4" stroke-width="2"/>
+                                    </svg>
+
+                                </div>
+                                <span class="nav__text">Log in</span>
+                            </a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="https://www.unit.network/register" class="nav__link">
+                                <div class="nav__icon">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                        <path
+                                            d="M1 5C1 3.89543 1.89543 3 3 3H13C14.1046 3 15 3.89543 15 5V17C15 18.1046 14.1046 19 13 19H3C1.89543 19 1 18.1046 1 17V5Z"
+                                            stroke="#ABABB4" stroke-width="2" />
+
+                                        <rect x="5" y="1" width="6" height="2" rx="1" stroke="#ABABB4" stroke-width="2" />
+                                        <path d="M5 7H11" stroke="#ABABB4" stroke-width="2" stroke-linecap="round" />
+                                        <path d="M5 11H11" stroke="#ABABB4" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <span class="nav__text">Register</span>
+                            </a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="#" class="nav__link">
+                                <div class="nav__icon">
+                                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="7.5" cy="9.5" r="2.5" stroke="#ABABB4" stroke-width="2"/>
+                                    <path d="M1 18.7143C1 15.5584 3.55837 13 6.71429 13H8.28571C11.4416 13 14 15.5584 14 18.7143V18.7143C14 18.8721 13.8721 19 13.7143 19H1.28571C1.12792 19 1 18.8721 1 18.7143V18.7143Z" stroke="#ABABB4" stroke-width="2"/>
+                                    <circle cx="12.5" cy="3.5" r="2.5" stroke="#ABABB4" stroke-width="2"/>
+                                    <path d="M14.5714 12H17.7143C17.8721 12 18 11.8721 18 11.7143V11.7143C18 8.55837 15.4416 6 12.2857 6H12" stroke="#ABABB4" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+
+                                </div>
+                                <span class="nav__text">Community</span>
+                            </a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="govemance.html" class="nav__link">
+                                <div class="nav__icon">
+                                    <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                    <path d="M9.88301 18.5064L9.35984 17.6542L9.88301 18.5064ZM16.9598 4.5619L15.9611 4.50949L16.9598 4.5619ZM2.75746 3.59141L8.75746 2.09141L8.27239 0.151125L2.27239 1.65113L2.75746 3.59141ZM9.24254 2.09141L15.2425 3.59141L15.7276 1.65113L9.72761 0.151125L9.24254 2.09141ZM15.9611 4.50949C15.5877 11.6241 12.587 15.673 9.35984 17.6542L10.4062 19.3586C14.2622 16.9915 17.5549 12.3022 17.9584 4.61432L15.9611 4.50949ZM8.64016 17.6542C5.41296 15.673 2.41229 11.6241 2.03887 4.50949L0.0416179 4.61431C0.445128 12.3022 3.7378 16.9915 7.59382 19.3586L8.64016 17.6542ZM9.35984 17.6542C9.13832 17.7901 8.86168 17.7901 8.64016 17.6542L7.59382 19.3586C8.45725 19.8887 9.54275 19.8887 10.4062 19.3586L9.35984 17.6542ZM8.75746 2.09141C8.9167 2.0516 9.0833 2.0516 9.24254 2.09141L9.72761 0.151125C9.24989 0.0316953 8.75011 0.0316953 8.27239 0.151125L8.75746 2.09141ZM15.2425 3.59141C15.7 3.70577 15.9825 4.1024 15.9611 4.50949L17.9584 4.61432C18.0332 3.18846 17.0508 1.98193 15.7276 1.65113L15.2425 3.59141ZM2.27239 1.65113C0.949174 1.98193 -0.0332205 3.18845 0.0416179 4.61431L2.03887 4.50949C2.0175 4.1024 2.30002 3.70577 2.75746 3.59141L2.27239 1.65113Z" fill="#ABABB4"/></g>
+                                    <path d="M9 7V11M11 9H7" stroke="#ABABB4" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+
+                                </div>
+                                <span class="nav__text">Governance</span>
+                            </a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="extra.html" class="nav__link">
+                                <div class="nav__icon">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="path-1-inside-1_95:57" fill="white">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1667 0C13.6814 0 11.6667 2.01472 11.6667 4.5C11.6667 6.98528 13.6814 9 16.1667 9C18.6519 9 20.6667 6.98528 20.6667 4.5C20.6667 2.01472 18.6519 0 16.1667 0ZM0 16.1667C0 13.6814 2.01472 11.6667 4.5 11.6667C6.98528 11.6667 9 13.6814 9 16.1667C9 18.6519 6.98528 20.6667 4.5 20.6667C2.01472 20.6667 0 18.6519 0 16.1667ZM11.6667 12.6667C11.6667 12.1144 12.1144 11.6667 12.6667 11.6667H19.6667C20.219 11.6667 20.6667 12.1144 20.6667 12.6667V18.6667C20.6667 19.7712 19.7712 20.6667 18.6667 20.6667H13.6667C12.5621 20.6667 11.6667 19.7712 11.6667 18.6667V12.6667ZM0 1C0 0.447715 0.447715 0 1 0H8C8.55228 0 9 0.447715 9 1V7C9 8.10457 8.10457 9 7 9H2C0.89543 9 0 8.10457 0 7V1Z"/>
+                                    </mask>
+                                    <g>
+                                    <path d="M13.6667 4.5C13.6667 3.11929 14.786 2 16.1667 2V-2C12.5768 -2 9.66667 0.910149 9.66667 4.5H13.6667ZM16.1667 7C14.786 7 13.6667 5.88071 13.6667 4.5H9.66667C9.66667 8.08985 12.5768 11 16.1667 11V7ZM18.6667 4.5C18.6667 5.88071 17.5474 7 16.1667 7V11C19.7565 11 22.6667 8.08985 22.6667 4.5H18.6667ZM16.1667 2C17.5474 2 18.6667 3.11929 18.6667 4.5H22.6667C22.6667 0.910149 19.7565 -2 16.1667 -2V2ZM4.5 9.66667C0.910149 9.66667 -2 12.5768 -2 16.1667H2C2 14.786 3.11929 13.6667 4.5 13.6667V9.66667ZM11 16.1667C11 12.5768 8.08985 9.66667 4.5 9.66667V13.6667C5.88071 13.6667 7 14.786 7 16.1667H11ZM4.5 22.6667C8.08985 22.6667 11 19.7565 11 16.1667H7C7 17.5474 5.88071 18.6667 4.5 18.6667V22.6667ZM-2 16.1667C-2 19.7565 0.910149 22.6667 4.5 22.6667V18.6667C3.11929 18.6667 2 17.5474 2 16.1667H-2ZM12.6667 9.66667C11.0098 9.66667 9.66667 11.0098 9.66667 12.6667H13.6667C13.6667 13.219 13.219 13.6667 12.6667 13.6667V9.66667ZM19.6667 9.66667H12.6667V13.6667H19.6667V9.66667ZM22.6667 12.6667C22.6667 11.0098 21.3235 9.66667 19.6667 9.66667V13.6667C19.1144 13.6667 18.6667 13.219 18.6667 12.6667H22.6667ZM22.6667 18.6667V12.6667H18.6667V18.6667H22.6667ZM18.6667 22.6667C20.8758 22.6667 22.6667 20.8758 22.6667 18.6667H18.6667V22.6667ZM13.6667 22.6667H18.6667V18.6667H13.6667V22.6667ZM9.66667 18.6667C9.66667 20.8758 11.4575 22.6667 13.6667 22.6667V18.6667H9.66667ZM9.66667 12.6667V18.6667H13.6667V12.6667H9.66667ZM1 -2C-0.656854 -2 -2 -0.656854 -2 1H2C2 1.55228 1.55228 2 1 2V-2ZM8 -2H1V2H8V-2ZM11 1C11 -0.656855 9.65685 -2 8 -2V2C7.44772 2 7 1.55229 7 1H11ZM11 7V1H7V7H11ZM7 11C9.20914 11 11 9.20914 11 7H7H7V11ZM2 11H7V7H2V11ZM-2 7C-2 9.20914 -0.20914 11 2 11V7L2 7H-2ZM-2 1V7H2V1H-2Z" fill="#ABABB4" mask="url(#path-1-inside-1_95:57)"/></g>
+                                    </svg>
+
+                                </div>
+                                <span class="nav__text">Extra</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger js-burger-open">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="introducing-section">
+                <div class="introducing-wrap">
+                    <div class="container">
+                        <div class="introducing">
+                            <div class="introducing__wrap">
+                                <h2 class="section-title">INTRODUCING <span class="section-color"> UNIT</span>
+                                </h2>
+                                <div class="introducing__col">
+                                    <span class="introducing__subtext">Explorer Address: <a href="#"
+                                            class="introducing__link">https://explorer.unit.network/#/explorer</a></span>
+                                    <p class="introducing__text"><span class="fw700">Blockchain:</span> UnitChain is a parachain
+                                        built on Substrate and linked to the Polkadot network. You can read our <span
+                                            class="color">Polkadot</span> parachain proposal <span class="color">here.</span></p>
+                                </div>
+                                <div class="introducing__col">
+                                    <p class="introducing__text">Unit Network provides a free, simple and secure pathway for
+                                        businesses, projects and individuals to create their own crypto-tokens, also known as
+                                        ‘community’ or ‘social’ tokens. This enables anyone in the world to participate in, and
+                                        benefit from all token-based economies they have helped to build.
+                                    </p>
+                                </div>
+                                <div class="introducing__col">
+                                    <p class="introducing__text">It is a new paradigm of crowdfunding, governance and verifiable
+                                        ownership secured on a distributed network, <span class="fw700">owned by the users.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="introducing-footer">
+                        <div class="introducing-img">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="assets/images/bg-governance.jpg">
+                                <img  class="desktop" src="assets/images/bg-governance.jpg" alt="">
+                                <source srcset="assets/images/bg-governance-tb.jpg">
+                                <img  class="mobail" src="assets/images/bg-governance-tb.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ecosystem-section">
+                <div class="container">
+                    <div class="ecosystem">
+                        <h2 class="section-title">THE UNIT ECOSYSTEM
+                            <span class="section-icon">
+                                <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+
+                            </span>
+                        </h2>
+                        <div class="ecosystem__wrap">
+                            <div class="ecosystem__col">
+                                <div class="ecosystem__img">
+                                    <img  loading="lazy" src="assets/images/UNIT_Token_Logo.png" alt="">
+                                </div>
+                                <div class="ecosystem__info">
+                                    <span class="ecosystem__text">UNIT Token</span>
+                                    <ul class="ecosystem__list">
+                                        <li class="ecosystem__item">Token that powers/underpins the Unit Network</li>
+                                        <li class="ecosystem__item">Backed by underling assets and grows by locking 0.5% of every
+                                            excFhange within Unit Network, into the Unit Treasury.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="ecosystem__col">
+                                <div class="ecosystem__img">
+                                    <img  loading="lazy" src="assets/images/UNITTokenLogo.png" alt="">
+                                </div>
+                                <div class="ecosystem__info">
+                                    <span class="ecosystem__text">Unit Network </span>
+                                    <ul class="ecosystem__list list-style-none">
+                                        <li class="ecosystem__item">No. 1 decentralised token builder platform that allows anyone to
+                                            easily create tokens with powerful features (bank/treasury/sale/polls/leader board and
+                                            more)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="ecosystem__col">
+                                <div class="ecosystem__img">
+                                    <img  loading="lazy" src="assets/images/unit3.png" alt="">
+                                </div>
+                                <div class="ecosystem__info">
+                                    <span class="ecosystem__text">Unit Foundation</span>
+                                    <ul class="ecosystem__list">
+                                        <li class="ecosystem__item">The decentralised organisation that the Unit core team members
+                                            (200ppl) are part of, which support the growth of the Unit Token economy </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="ecosystem__col">
+                                <div class="ecosystem__img">
+                                    <img  loading="lazy" src="assets/images/unit4.png" alt="">
+                                </div>
+                                <div class="ecosystem__info">
+                                    <span class="ecosystem__text">Unit Global </span>
+                                    <ul class="ecosystem__list">
+                                        <li class="ecosystem__item">The DAO that the industry/city team members (20,000ppl = 100
+                                            teams x 200ppl) are part of, which support the growth of the Unit Token economy
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="inception-section">
+                <div class="container">
+                    <div class="inception">
+                        <h2 class="section-title">FROM ITS INCEPTION, UNIT NETWORK HAS SERVED AS A TRUSTLESS, <br>
+                        COMMUNITY OWNED TOKENISATION INFRASTRUCTURE BUILT FOR WEB 3</h2>
+                        <div class="inception__wrap">
+                            <p class="inception__text">Inspired by Satoshi’s vision of an egalitarian future, we have long committed to the ideals of permissionless access, distributed security and immutability as the essential components for accelerating access to financial services without concern of discrimination or counterparty risk.</p>
+                            <p class="inception__text">Unit Network embraces the tenets of neutrality and trust minimization by offering a governance framework accessible to all users who hold the UNIT token.</p>
+                            <p class="inception__text">In the spirit of continued innovation and platform evolution Unit Core Team members will strive toward equitable protocol development and continued education of the expanding crypto community. </p>
+                            <p class="inception__text">As such, the Unit Foundation officially enshrines Unit Network as a publicly-owned and self-sustainable infrastructure while continuing to carefully protect its indestructible and autonomous qualities.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="five-section">
+                <div class="container">
+                    <div class="five">
+                        <h2 class="section-title">FIVE LEVELS OF TOKENS <span class="section-icon">
+                                <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+
+                            </span></h2>
+                        <div class="five__wrap">
+                            <ol class="five__list">
+                                <li class="five__items">ESTABLISHED DIGITAL ASSETS (EDA’s)
+                                    <ul class="five__marker">
+                                        <li class="five__text">BTC / ETH / DOT / SOL / MATIC / LINK / BNB / KSM and others</li>
+                                    </ul>
+                                </li>
+                                <li class="five__items">UNIT
+                                    <ul class="five__marker">
+                                        <li class="five__text">
+                                            Powering the new community token economy, backed by EDA’s
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="five__items"> INDUSTRY / CITY / STABLE
+                                    <ul class="five__marker">
+                                        <li class="five__text">
+                                            Subset (index) of the UNIT Token economy, backed by EDA’s + UNIT
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="five__items ">AGENCIES / FUNDS
+                                    <ul class="five__marker">
+                                        <li class="five__text">
+                                            Supporting the implementation and growth of community and social tokens (analogous to web development agencies, advisory firms or investment funds), backed by EDA’s + UNIT + Industry / City / Stable
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="five__items ">PROJECTS
+                                    <ul class="five__marker">
+                                        <li class="five__text">
+                                            All the Individuals and businesses within the social and community token economy, backed by EDA’s + UNIT + Industry/City/Stable + Agencies / Funds
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="tokemonics-section">
+                <div class="container">
+                    <h2 class="section-title tokemonics-title">
+                        Unit tokemonics
+                        <span class="chevron-icon">
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </span>
+                    </h2>
+                    <div class="tokemonic-wrapper">
+                        <div class="tokemonics">
+                            <div class="tokemonics__about">
+                                <div class="tokemonics__img">
+                                    <img  loading="lazy" src="assets/images/UNIT_Token_Logo.png" alt="">
+                                </div>
+                                <ul class="tokemonics__about-list tokemonics-list">
+                                    <li class="tokemonics__about-list__item">
+                                       <p class="tokemonics__about-text">
+                                         Ticker: <span>UNIT</span> 
+                                       </p>
+                                    </li>
+                                    <li class="tokemonics__about-list__item">
+                                        <p class="tokemonics__about-text">
+                                         Total Supply: <span>100,000,000</span> 
+                                        </p>
+                                     </li>
+                                     <li class="tokemonics__about-list__item">
+                                        <p class="tokemonics__about-text">
+                                         Total Sale Supply: <span>66,000,000</span> 
+                                        </p>
+                                     </li>
+                                     <li class="tokemonics__about-list__item">
+                                        <p class="tokemonics__about-text">
+                                            Total Bonus Distribution: <span>14,000,000</span> 
+                                        </p>
+                                     </li>
+                                     <li class="tokemonics__about-list__item">
+                                        <p class="tokemonics__about-text">
+                                         Core Team Distribution: <span>20,000,000 (3 year cliff, 5 year vest)</span> 
+                                        </p>
+                                     </li>
+                                </ul>
+                            </div>
+                            <div class="tokemonics__wrap">
+                                <div class="tokemonics__descr">
+                                    <h3 class="tokemonics__descr-title">
+                                        TOKEN HOLDERS ARE ABLE TO ENGAGE IN:
+                                    </h3>
+                                    <ul class="tokemonics__descr-list">
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                <b> 1. Governance</b> (Propose and vote on proposals related to Unit ecosystem via Polls)
+                                            </p>
+                                        </li>
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                <b>2. Staking</b> (stake your UNIT and receive exchange fees when people exchange USDU-UNIT)
+                                            </p>
+                                        </li>
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                <b> 3. Operating Nodes</b> (gas fees for running nodes which go to network node operators and validators)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tokemonics__descr">
+                                    <h3 class="tokemonics__descr-title">
+                                        YOU CAN EARN UNIT BY:
+                                    </h3>
+                                    <ul class="tokemonics__descr-list tokemonics__descr-list--earn">
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                Staking it in the UNIT Liquidity Pool 
+                                            </p>
+                                        </li>
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                Receiving 0.5% on exchange fees from your referrals
+                                            </p>
+                                        </li>
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                Buy/sell it via the UNIT exchange 
+                                            </p>
+                                        </li>
+                                        <li class="tokemonics__descr-list__item">
+                                            <p class="tokemonics__descr-text">
+                                                Accept UNIT as payment for products or services via any tokens store.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="distribution-section">
+                <div class="container">
+                    <h2 class="section-title">
+                        EXCHANGE FEE DISTRIBUTION
+                        <span class="chevron-icon">
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </span>
+                    </h2>
+                    <div class="distribution-wrapper offset-left">
+                        <p class="distribution-text">
+                            There is a 2% fee on every exchange on the network that is split equally four ways:
+                        </p>
+                        <ul class="distribution-list">
+                            <li class="distribution-list__item">
+                                0.5% - To the user that invited / reffered the exchanger
+                            </li>
+                            <li class="distribution-list__item">
+                                0.5% - To the exchange pool and shared by the liquidity providers
+                            </li>
+                            <li class="distribution-list__item">
+                                0.5% - To the UNIT treasury
+                            </li>
+                            <li class="distribution-list__item">
+                                0.5% - To the respective tokens treasury
+                            </li>
+                        </ul>
+                        <p class="distribution-text">
+                            Note: Withdrawals, inter-user transfer, staking & un-staking and store purchases are free
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="warning-section">
+                <div class="container">
+                    <div class="warning-wrapper">
+                        <div class="warning">
+                            <div class="warning__wrap">
+                                <div class="warning__img">
+                                    <img  loading="lazy" src="assets/images/warning.png" alt="">
+                                </div>
+                                <div class="wraning__about">
+                                    <p class="warning__text">
+                                        The UNIT Token is available only from within the Unit Network platform. Please be sure to
+                                        check the URL in your browser perfectly matches:
+                                    </p>
+                                    <p class="warning__text"> https://www.unit.network/...</p>
+                                    <p class="warning__text">
+                                        We are conscious of the phishing attempts which continue plague the wider crypto community
+                                        and would strongly advise all users to be discerning of links they navigate to and of course
+                                        password and sensitive data security.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="exploring-section">
+                <div class="container">
+                        <h2 class="section-title">
+                            EXPLORING THE UNIT NETWORK TREASURY FEATURE
+                            <span class="chevron-icon desktop">
+                                <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+
+                            </span>
+                        </h2>
+                        <div class="exploring-wrapper offset-left">
+                            <div class="exploring">
+                                <p class="exploring-text base-text">
+                                   <b> Every token created on Unit Network has access to several powerful features to help creators build and manage their token economies, the most important of which is arguably the Treasury. </b>
+                                </p>
+                                <p class="exploring-text base-text">When digital assets are transferred into a tokens' treasury — <b> they are only redeemable by the token holders</b> — who can choose to sell their tokens back to the treasury and redeem whatever digital assets have been sent there. </p>
+                                <p class="exploring-text base-text">
+                                    <b> There are two ways that digital assets are sent to a tokens treasury.</b> The first is the by the token creator who can transfer funds from their Unit bank or wallet. The second is during an exchange with the token, which will send 0.5% of the exchange fee to the tokens treasury.
+                                </p>
+                                <p class="exploring-text base-text"> 
+                                    Therefore, we now have a mechanism by which any user can <b> establish the floor price of a token and substantiate the tokens value </b>with deflationary digital assets like Bitcoin. A potential formula for token price and valuation could now look like:
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <section class="npv-section">
+                <div class="container">
+                    <div class="npv-wrapper offset-left">
+                        <p class="npv-text npv-text--primary">
+                            Token Valuation = NPV Treasury + NPV Token Standalone + NPV Transparency Signal
+                        </p>
+                        <p class="npv-text base-text">
+                            *NPV Transparency Signal = The value that comes from growing the treasury consistently, and/or the gap between communicated behavior (e.g. put 10% of business profits into treasury each month) and observed behavior of token project team.
+                        </p>
+                        <p class="npv-text base-text">
+                            *NPV — Net Present Value: Used to calculate the current total value of a future stream of payments.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="transparency-section">
+                <div class="container">
+                    <h2 class="section-title">
+                        TRANSPARENCY WE’VE ALL BEEN WAITING FOR
+                        <span class="chevron-icon">
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </span>
+                    </h2>
+                    <div class="transparency-wrapper offset-left">
+                        <div class="transparency">
+                            <p class="transparency-text base-text">
+                                <b> All financial assets are typically valued based on an assessment of future income paid to the holder (bonds - interest, common and preferred stocks - dividends, real estate - rent, etc.) discounted to the present.</b>  However, an accurate forecast of both the income and the discount rate are relative unknowns that we can spend a lot of time to trying to decipher.
+                            </p>
+                            <p class="transparency-text base-text">
+                                <b>In the Unit token economy, the Treasury is a transparent, immutable way by which value can be distributed to token holders.</b>  Whatever is added to the Treasury become the reserve assets of the enterprise and gives token holders ownership of those assets equal to their proportion of token holdings. 
+                            </p>
+                            <p class="transparency-text base-text">
+                               <b> The key difference between an equity stake (to which traditional dividends are paid) and a token with an aggregation of digital assets (the Treasury) is that equity holders can't spend or invest their equity stake elsewhere in the economy. </b>Instead, they need to be paid dividends in a currency that other people accept in order to bridge the gap between their investment in this equity and other investments they want to make.
+                            </p>
+                            <p class="transparency-text base-text">
+                                Brilliantly, <b> token holders don't need a bridge, the gap is closed.</b> They don't need to reach into the Treasury and take out their "dividends" because they can convert one token to another or spend that token directly within that token's ecosystem. <b> The value is unlocked and flows freely.</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="resources-section">
+                <div class="container">
+                    <h2 class="section-title">
+                        ADDITIONAL RESOURCES
+                        <span class="chevron-icon">
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </span>
+                    </h2>
+                    <div class="resources-warapper">
+                        <ul class="resouces-list">
+                            <li class="resources-list__item">
+                                <p class="base-text">
+                                    You can find a complete overview of the platform features <a href="#">here</a>
+                                </p>
+                            </li>
+                            <li class="resources-list__item">
+                                <p class="base-text">
+                                    Our <a href="">YouTube</a>  channel has a growing collection of videos about tokenisation and the wider community building around it
+                                </p>
+                            </li>
+                            <li class="resources-list__item">
+                                <p class="base-text">
+                                    Interested in creating a token but don’t know where to start? Join our Ventures <a href="">Telegram</a> group. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="philosophy-section">
+                <div class="container">
+                    <h2 class="section-title">
+                        <span>UNIT</span> PHILOSOPHY
+                        <span class="chevron-icon">
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 15L8 8.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </span>
+                    </h2>
+                    <div class="philosophy-wrapper offset-left">
+                        <p class="philosophy-text base-text">
+                            Unit Network is a community-powered protocol paving the road ahead for Web 3 by increasing financial stability through use of tokens as derivatives, backed by an aggregate value of established digital assets. This is not a new idea, but perhaps a forgotten one worth reinstating.
+                        </p>
+                        <p class="philosophy-text base-text">
+                            We hope to see a variety of experimentation, ecosystem grants and user funding which can foster additional ecosystem growth and wider token adoption. Unit Network has offered a standard for easy, feature rich token issuance: it is now time to set the benchmark for transparent and scalable, value-backed tokenisation.
+                        </p>
+                        <p class="philosophy-text base-text">
+                            UNIT holders are responsible for ensuring that governance decisions are made in compliance with applicable laws and regulations. The Unit Network community is encouraged to consult knowledgeable legal and regulatory professionals before implementing any specific proposal.
+                        </p>
+                        <p class="philosophy-text base-text">
+                                The Unit Network Core Team will continue to participate in and encourage protocol development, auditing, and other matters. Similarly, team members will continue to operate in a distributed and diverse fashion for the foreseeable future and welcome all new talent looking to <a href="#" class="base-link">get involved</a>. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <span class="footer__copyright">© 2021 Unit Network</span>
+                    <ul class="footer__list">
+                        <li class="footer__list-item footer__list-item--top">
+                            <a href="#" class="footer__link-top footer-link">About</a>
+                        </li>
+                        <li class="footer__list-item footer__list-item--top">
+                            <a href="#" class="footer__link-top footer-link">Disclaimer</a>
+                        </li>
+                        <li class="footer__list-item footer__list-item--top">
+                            <a href="#" class="footer__link-top footer-link">Trademarks</a>
+                        </li>
+                        <li class="footer__list-item footer__list-item--top">
+                            <a href="#" class="footer__link-top footer-link">Brand</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay js-overlay"></div>
+        <div class="popup" data-popup="some-popup">
+          <button type="button" class="popup__close js-popup-close"></button>
+          <div class="popup__wrap">
+
+          </div>
+        </div>
+    </div>
+    <script src="assets/js/vendor.min.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+    <div class="svg-sprite">
+    <?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol fill="none" viewBox="0 0 78 78" id="blockchain" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M34.18 15.872a2.5 2.5 0 103.535 3.535l9.26-9.26c5.844-5.844 15.318-5.844 21.16 0 5.844 5.842 5.844 15.316 0 21.16l-9.26 9.26a2.5 2.5 0 003.536 3.536l9.26-9.261c7.796-7.796 7.796-20.435 0-28.231-7.795-7.796-20.435-7.796-28.23 0l-9.262 9.26zM9.931 47.19c-5.843 5.843-5.843 15.317 0 21.16 5.844 5.843 15.317 5.843 21.16 0l9.261-9.261a2.5 2.5 0 113.536 3.536l-9.26 9.26c-7.797 7.796-20.436 7.796-28.232 0-7.796-7.795-7.796-20.435 0-28.23l9.26-9.262a2.5 2.5 0 013.536 3.536l-9.26 9.26zm14.987 6.174a2.5 2.5 0 010-3.536l24.695-24.696a2.5 2.5 0 113.536 3.536L28.454 53.364a2.5 2.5 0 01-3.535 0z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 79 76" id="chat" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.03 37.917C.03 17.22 17.676.529 39.333.529c21.658 0 39.303 16.691 39.303 37.388 0 20.696-17.645 37.388-39.303 37.388-6.364 0-12.379-1.44-17.701-3.998l-20.41 3.98a1 1 0 01-1.17-1.194l4.179-19.34a35.769 35.769 0 01-4.2-16.836zM38 47.66a7.66 7.66 0 100-15.322 7.66 7.66 0 000 15.322zm22.982 0a7.66 7.66 0 100-15.322 7.66 7.66 0 000 15.322zM22.679 40a7.66 7.66 0 11-15.321 0 7.66 7.66 0 0115.32 0z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 10 17" id="chevron" xmlns="http://www.w3.org/2000/svg"><path d="M2 15l6-6.5L2 2" stroke="#6A2FE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol fill="none" viewBox="0 0 81 81" id="complete" xmlns="http://www.w3.org/2000/svg"><circle cx="40.5" cy="40.5" r="38" stroke="#984CFD" stroke-width="5"/><path stroke="#984CFD" stroke-width="5" stroke-linecap="round" d="M24.686 45.894l8.549 7.979m2.006 1.669L55.9 27.047"/></symbol><symbol fill="none" viewBox="0 0 76 96" id="contest" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M40.23.999a3 3 0 00-4.47 0l-8.628 9.638a1 1 0 01-.8.332l-12.917-.715a3 3 0 00-3.16 3.161l.713 12.917a1 1 0 01-.331.8L.999 35.76a3 3 0 000 4.47l9.638 8.629a1 1 0 01.332.8l-.715 12.916a3 3 0 003.161 3.16l8.57-.473a2.488 2.488 0 00-.268 1.126v26.319a2.5 2.5 0 003.887 2.08l9.892-6.595 9.893 6.595a2.5 2.5 0 003.887-2.08V66.388a2.48 2.48 0 00-.285-1.158 1 1 0 01.668-.208l12.916.714a3 3 0 003.16-3.161l-.713-12.916a1 1 0 01.331-.8l9.638-8.629a3 3 0 000-4.47l-9.638-8.628a1 1 0 01-.331-.8l.714-12.917a3 3 0 00-3.161-3.16l-12.916.713a1 1 0 01-.8-.331L40.23.999zm4.046 69.474v17.563l-7.393-4.929a2.5 2.5 0 00-2.774 0l-7.392 4.928V66.388c0-.504-.15-.973-.406-1.365l.02-.001a1 1 0 01.8.331l8.629 9.638a3 3 0 004.47 0l4.046-4.518zm4.985-35.46a2.5 2.5 0 10-3.535-3.535l-12.48 12.48-2.982-2.981a2.5 2.5 0 10-3.535 3.535l4.75 4.75a2.5 2.5 0 003.535 0L49.26 35.013z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 79 71" id="events" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.896 3.376a2.5 2.5 0 012.5-2.5H75.58a2.5 2.5 0 012.5 2.5v18.357a2.5 2.5 0 01-2.5 2.5c-4.073 0-8.327 4.451-8.327 11.267s4.254 11.268 8.328 11.268a2.5 2.5 0 012.5 2.5v18.356a2.5 2.5 0 01-2.5 2.5H3.395a2.5 2.5 0 01-2.5-2.5V49.268a2.5 2.5 0 012.5-2.5c4.073 0 8.327-4.452 8.327-11.268 0-6.816-4.254-11.267-8.327-11.267a2.5 2.5 0 01-2.5-2.5V3.376zm5 2.5v13.63c6.513 1.458 10.828 8.522 10.828 15.994 0 7.472-4.315 14.536-10.828 15.994v13.63H27.66V5.876H5.896z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 81 71" id="exchange" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M64.784 14.04a1 1 0 10-1.318 1.504l4.751 4.164H49.36a5 5 0 00-4.126 2.176L27.366 47.986a3 3 0 01-2.475 1.306H10.125a1 1 0 100 2h14.766a5 5 0 004.126-2.176l17.867-26.102a3 3 0 012.475-1.306h18.858l-4.751 4.165a1 1 0 001.318 1.504l6.75-5.917a1 1 0 000-1.504l-6.75-5.916zm-54.659 5.668a1 1 0 000 2h9.231c3.462 0 6.702 1.242 9.02 3.336a1 1 0 101.34-1.484c-2.706-2.446-6.432-3.852-10.36-3.852h-9.231zm54.66 23.915a1 1 0 00-1.32 1.504l4.752 4.165H54.894c-3.462 0-6.702-1.242-9.02-3.336a1 1 0 00-1.34 1.484c2.706 2.446 6.432 3.852 10.36 3.852h13.323l-4.751 4.164a1 1 0 001.318 1.505l6.75-5.917a1 1 0 000-1.504l-6.75-5.917z" fill="#984CFD"/><path d="M63.373 14.133l-1.88-1.648 1.88 1.648zm1.411-.093l-1.648 1.88 1.648-1.88zm-1.318 1.504l1.648-1.88-1.648 1.88zm4.751 4.164v2.5a2.5 2.5 0 001.648-4.38l-1.648 1.88zm-22.984 2.176l2.063 1.412-2.063-1.412zM27.366 47.986l2.063 1.412-2.063-1.412zm1.65 1.13l2.064 1.412-2.063-1.412zm17.868-26.102l-2.063-1.412 2.063 1.412zm21.333-1.306l1.648 1.88a2.5 2.5 0 00-1.648-4.38v2.5zm-4.751 4.165l1.648 1.88-1.648-1.88zm-.093 1.411l-1.88 1.648 1.88-1.648zm1.411.093l-1.648-1.88 1.648 1.88zm6.75-5.917l-1.648-1.88 1.648 1.88zm0-1.504l-1.648 1.88 1.648-1.88zm-43.158 5.088l1.676-1.855-1.676 1.855zm1.34-1.484l-1.675 1.855 1.676-1.855zm33.657 20.156l-1.88-1.648 1.88 1.648zm1.411-.093l-1.648 1.88 1.648-1.88zm-1.318 1.504l1.648-1.88-1.648 1.88zm4.751 4.165v2.5a2.5 2.5 0 001.648-4.38l-1.648 1.88zm-22.343-3.336l1.676-1.855-1.676 1.855zm-1.412.072l-1.855-1.676 1.855 1.676zm.071 1.412l1.676-1.855-1.676 1.855zm23.684 3.852l1.648 1.88a2.5 2.5 0 00-1.648-4.38v2.5zm-4.751 4.164l-1.648-1.88 1.648 1.88zm-.093 1.412l1.88-1.648-1.88 1.648zm1.411.093l-1.648-1.88 1.648 1.88zm6.75-5.917l-1.648-1.88 1.648 1.88zm0-1.504l-1.648 1.88 1.648-1.88zm-6.281-33.76a1.5 1.5 0 01-2.117.14l3.296-3.76a3.5 3.5 0 00-4.939.325l3.76 3.296zm-.14-2.116a1.5 1.5 0 01.14 2.117l-3.76-3.296a3.5 3.5 0 00.325 4.939l3.296-3.76zm4.752 4.164l-4.751-4.164-3.296 3.76 4.751 4.164 3.296-3.76zm-20.506 4.38h18.858v-5H49.36v5zm-2.063 1.088a2.5 2.5 0 012.063-1.088v-5a7.5 7.5 0 00-6.189 3.264l4.126 2.824zM29.43 49.398l17.867-26.102-4.126-2.824-17.867 26.102 4.126 2.824zm-4.538 2.394a5.5 5.5 0 004.538-2.394l-4.126-2.824a.5.5 0 01-.412.218v5zm-14.766 0h14.766v-5H10.125v5zm1.5-1.5a1.5 1.5 0 01-1.5 1.5v-5a3.5 3.5 0 00-3.5 3.5h5zm-1.5-1.5a1.5 1.5 0 011.5 1.5h-5a3.5 3.5 0 003.5 3.5v-5zm14.766 0H10.125v5h14.766v-5zm2.063-1.088a2.5 2.5 0 01-2.063 1.088v5a7.5 7.5 0 006.189-3.264l-4.126-2.824zM44.82 21.602L26.954 47.704l4.126 2.824 17.867-26.102-4.126-2.824zm4.538-2.394a5.5 5.5 0 00-4.538 2.394l4.126 2.824a.5.5 0 01.412-.218v-5zm18.858 0H49.36v5h18.858v-5zm-3.103 8.545l4.751-4.165-3.296-3.76-4.751 4.165 3.296 3.76zm.139-2.117a1.5 1.5 0 01-.14 2.117l-3.295-3.76a3.5 3.5 0 00-.325 4.94l3.76-3.297zm-2.117-.139a1.5 1.5 0 012.117.14l-3.76 3.295a3.5 3.5 0 004.94.325l-3.297-3.76zm6.75-5.917l-6.75 5.917 3.296 3.76 6.75-5.917-3.296-3.76zm-.511 1.128a1.5 1.5 0 01.511-1.128l3.296 3.76a3.5 3.5 0 001.193-2.632h-5zm.511 1.128a1.5 1.5 0 01-.511-1.128h5a3.5 3.5 0 00-1.193-2.632l-3.296 3.76zm-6.75-5.916l6.75 5.916 3.296-3.76-6.75-5.916-3.296 3.76zm-51.511 4.788a1.5 1.5 0 01-1.5 1.5v-5a3.5 3.5 0 00-3.5 3.5h5zm-1.5-1.5a1.5 1.5 0 011.5 1.5h-5a3.5 3.5 0 003.5 3.5v-5zm9.231 0h-9.231v5h9.231v-5zm10.696 3.981c-2.804-2.533-6.651-3.98-10.696-3.98v5c2.879 0 5.512 1.035 7.344 2.69l3.352-3.71zm-2.119.108a1.5 1.5 0 012.12-.108L26.7 26.9a3.5 3.5 0 004.943-.25l-3.71-3.352zm.108 2.118a1.5 1.5 0 01-.108-2.118l3.71 3.352a3.5 3.5 0 00-.25-4.944l-3.352 3.71zm-8.685-3.207c3.345 0 6.464 1.2 8.685 3.207l3.352-3.71c-3.193-2.885-7.527-4.497-12.037-4.497v5zm-9.231 0h9.231v-5h-9.231v5zm55.128 23.156a1.5 1.5 0 01-2.117.14l3.296-3.76a3.5 3.5 0 00-4.939.324l3.76 3.296zm-.14-2.117a1.5 1.5 0 01.14 2.117l-3.76-3.296a3.5 3.5 0 00.325 4.94l3.296-3.76zm4.752 4.165l-4.751-4.165-3.296 3.76 4.751 4.165 3.296-3.76zm-14.971 4.38h13.323v-5H54.894v5zM44.198 47.81c2.804 2.533 6.651 3.98 10.696 3.98v-5c-2.879 0-5.512-1.034-7.344-2.69l-3.352 3.71zm2.118-.107a1.5 1.5 0 01-2.118.107l3.352-3.71a3.5 3.5 0 00-4.943.25l3.71 3.353zm-.107-2.119a1.5 1.5 0 01.107 2.119l-3.71-3.352a3.5 3.5 0 00.251 4.943l3.352-3.71zm8.685 3.207c-3.345 0-6.464-1.2-8.685-3.207l-3.352 3.71c3.193 2.885 7.527 4.497 12.037 4.497v-5zm13.323 0H54.894v5h13.323v-5zm-3.103 8.544l4.751-4.164-3.296-3.76-4.751 4.164 3.296 3.76zm.139-2.116a1.5 1.5 0 01-.14 2.116l-3.295-3.76a3.5 3.5 0 00-.325 4.94l3.76-3.296zm-2.117-.14a1.5 1.5 0 012.117.14l-3.76 3.296a3.5 3.5 0 004.94.325l-3.297-3.76zm6.75-5.916l-6.75 5.916 3.296 3.76 6.75-5.916-3.296-3.76zm-.511 1.128a1.5 1.5 0 01.511-1.128l3.296 3.76a3.5 3.5 0 001.193-2.632h-5zm.511 1.128a1.5 1.5 0 01-.511-1.128h5a3.5 3.5 0 00-1.193-2.632l-3.296 3.76zm-6.75-5.917l6.75 5.917 3.296-3.76-6.75-5.917-3.296 3.76z" fill="#984CFD"/><rect x="2.5" y="2.5" width="76" height="66" rx="12.5" stroke="#984CFD" stroke-width="5"/></symbol><symbol fill="none" viewBox="0 0 85 84" id="news" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M51.782 1.755C51.498.28 49.758-.352 48.589.568L27.727 16.995a1 1 0 01-.619.214H3a3 3 0 00-3 3v43.632a3 3 0 003 3h24.108a1 1 0 01.619.215l20.862 16.426c1.169.92 2.909.288 3.193-1.186a212.702 212.702 0 003.82-40.27c0-13.814-1.317-27.286-3.82-40.271z" fill="#984CFD"/><path transform="matrix(.93236 -.36153 .31248 .94993 56.344 33.278)" stroke="#6A2FE4" stroke-width="5" stroke-linecap="round" d="M2.5-2.5h17.092"/><path stroke="#6A2FE4" stroke-width="5" stroke-linecap="round" d="M59.408 63.462l15.938 4.291"/><path transform="matrix(.9996 -.02856 .02423 .9997 56.344 50.051)" stroke="#6A2FE4" stroke-width="5" stroke-linecap="round" d="M2.5-2.5h22.966"/></symbol><symbol fill="none" viewBox="0 0 83 83" id="people" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.13 5C21.175 5 5 21.176 5 41.13a35.96 35.96 0 004.24 17 19.622 19.622 0 0114.72-6.624h34.338c5.86 0 11.12 2.563 14.72 6.624a35.96 35.96 0 004.241-17C77.259 21.175 61.083 5 41.129 5zM0 41.13C0 18.413 18.414 0 41.13 0c22.715 0 41.129 18.414 41.129 41.13a40.95 40.95 0 01-6.976 22.923c-7.38 10.976-19.922 18.206-34.154 18.206-14.231 0-26.773-7.23-34.153-18.206A40.95 40.95 0 010 41.13zm25.753-12.877c0-8.492 6.884-15.377 15.377-15.377 8.492 0 15.376 6.885 15.376 15.377S49.622 43.63 41.129 43.63c-8.492 0-15.376-6.885-15.376-15.377z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 81 81" id="plus" xmlns="http://www.w3.org/2000/svg"><circle cx="40.5" cy="40.5" r="38" stroke="#984CFD" stroke-width="5"/><path stroke="#984CFD" stroke-width="5" stroke-linecap="round" d="M41.5 21.5v38m-19-19h37"/></symbol><symbol fill="none" viewBox="0 0 49 49" id="search" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.8 4C11.97 4 4 11.97 4 21.8c0 9.83 7.97 17.8 17.8 17.8 4.916 0 9.364-1.991 12.586-5.214A17.741 17.741 0 0039.6 21.8C39.6 11.97 31.63 4 21.8 4zM2 21.8C2 10.865 10.865 2 21.8 2s19.8 8.865 19.8 19.8a19.73 19.73 0 01-5.11 13.276l9.517 9.517a1 1 0 01-1.414 1.414l-9.517-9.517A19.73 19.73 0 0121.8 41.6C10.865 41.6 2 32.735 2 21.8z" fill="#000"/><path d="M34.386 34.386l-1.414-1.414 1.414 1.414zm2.104.69l-1.483-1.342a2 2 0 00.069 2.756l1.414-1.414zm9.517 9.517l1.414-1.414-1.414 1.414zm0 1.414l1.414 1.414-1.414-1.414zm-1.414 0l-1.414 1.414 1.414-1.414zm-9.517-9.517l1.414-1.414a2 2 0 00-2.756-.07l1.342 1.484zM6 21.8C6 13.074 13.074 6 21.8 6V2C10.865 2 2 10.865 2 21.8h4zm15.8 15.8C13.074 37.6 6 30.526 6 21.8H2c0 10.935 8.865 19.8 19.8 19.8v-4zm11.172-4.628A15.741 15.741 0 0121.8 37.6v4a19.74 19.74 0 0014-5.8l-2.828-2.828zM37.6 21.8c0 4.364-1.765 8.31-4.628 11.172l2.829 2.829A19.74 19.74 0 0041.6 21.8h-4zM21.8 6c8.726 0 15.8 7.074 15.8 15.8h4C41.6 10.865 32.735 2 21.8 2v4zm0-6C9.76 0 0 9.76 0 21.8h4C4 11.97 11.97 4 21.8 4V0zm21.8 21.8C43.6 9.76 33.84 0 21.8 0v4c9.83 0 17.8 7.97 17.8 17.8h4zm-5.627 14.617A21.73 21.73 0 0043.6 21.8h-4a17.73 17.73 0 01-4.593 11.934l2.967 2.683zm9.448 6.762l-9.517-9.517-2.828 2.828 9.517 9.517 2.828-2.828zm0 4.242a3 3 0 000-4.242l-2.828 2.828a1 1 0 010-1.414l2.828 2.828zm-4.242 0a3 3 0 004.242 0l-2.828-2.828a1 1 0 011.414 0L43.18 47.42zm-9.517-9.517l9.517 9.517 2.828-2.828-9.517-9.517-2.828 2.828zM21.8 43.6a21.73 21.73 0 0014.617-5.627l-2.683-2.966A17.73 17.73 0 0121.8 39.6v4zM0 21.8c0 12.04 9.76 21.8 21.8 21.8v-4C11.97 39.6 4 31.63 4 21.8H0z" fill="#000"/></symbol><symbol fill="none" viewBox="0 0 83 71" id="store" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.009 27.136a3.014 3.014 0 01-.195-.13l-7.578-5.512a3 3 0 01-.808-3.97l9.64-16.067A3 3 0 0112.642 0h57.284a3 3 0 012.572 1.457l9.641 16.068a3 3 0 01-.808 3.97l-7.578 5.51c-.063.047-.128.09-.195.131v38.356h4.944a2.5 2.5 0 010 5H4.065a2.5 2.5 0 010-5H9.01V27.136zm37.218 38.356H36.34V40.718h9.887v24.774zm5 0V40.218a4.5 4.5 0 00-4.5-4.5H35.84a4.5 4.5 0 00-4.5 4.5v25.274H14.009v-38.44a2.49 2.49 0 00-.245-1.08l7.05-5.127 8.47 6.16a3 3 0 003.529 0l8.47-6.16 8.47 6.16a3 3 0 003.53 0l8.47-6.16 7.05 5.127a2.49 2.49 0 00-.246 1.08v38.44h-17.33z" fill="#984CFD"/></symbol><symbol fill="none" viewBox="0 0 51 56" id="team" xmlns="http://www.w3.org/2000/svg"><path d="M28 27.5c0 4.047-3.484 7.5-8 7.5s-8-3.453-8-7.5c0-4.047 3.484-7.5 8-7.5s8 3.453 8 7.5zM2 53.19C2 44.25 9.249 37 18.19 37h3.62C30.75 37 38 44.249 38 53.19a.81.81 0 01-.81.81H2.81a.81.81 0 01-.81-.81zM41 10c0 4.516-3.453 8-7.5 8-4.047 0-7.5-3.484-7.5-8s3.453-8 7.5-8c4.047 0 7.5 3.484 7.5 8z" stroke="#212121" stroke-width="4"/><path d="M39.286 34h8.952c.42 0 .762-.341.762-.762v0C49 24.822 42.178 18 33.762 18H32" stroke="#212121" stroke-width="4" stroke-linecap="round"/></symbol><symbol fill="none" viewBox="0 0 79 72" id="treasury" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M31.723 23.537a7.672 7.672 0 0115.343 0v7.629H31.722v-7.63zm-5 7.629v-7.63c0-6.998 5.673-12.67 12.671-12.67 6.999 0 12.672 5.672 12.672 12.67v7.63h.129a5 5 0 015 5v17.972a5 5 0 01-5 5H26.594a5 5 0 01-5-5V36.166a5 5 0 015-5h.128zm15.214 13.986a3.814 3.814 0 117.629 0 3.814 3.814 0 01-7.629 0z" fill="#984CFD"/><rect x="2.5" y="2.5" width="74" height="67" rx="12.5" stroke="#984CFD" stroke-width="5"/></symbol><symbol fill="none" viewBox="0 0 81 69" id="wallet" xmlns="http://www.w3.org/2000/svg"><rect x="2.5" y="2.5" width="76" height="64" rx="12.5" stroke="#984CFD" stroke-width="5"/><path d="M47.5 35.5a8 8 0 018-8h23v16h-23a8 8 0 01-8-8z" stroke="#984CFD" stroke-width="5"/></symbol><symbol fill="none" viewBox="0 0 57 49" id="wallet2" xmlns="http://www.w3.org/2000/svg"><rect x="2.5" y="2.5" width="52" height="44" rx="12.5" stroke="#212121" stroke-width="5"/><path d="M34.5 25a5.5 5.5 0 015.5-5.5h14.5v11H40a5.5 5.5 0 01-5.5-5.5z" stroke="#212121" stroke-width="5"/></symbol></svg>
+    </div>
+</body>
+
+</html>
